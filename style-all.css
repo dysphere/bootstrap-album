@@ -40,6 +40,8 @@
  .foot {
     margin-top: 35px;
     margin-bottom: 35px;
+    margin-left: clamp(5px, 5%, 300px);
+    margin-right: clamp(5px, 5%, 300px);
  }
 
  .ham {
@@ -48,9 +50,19 @@
 
  .aboutdesc {
     max-width: 700px;
-    margin-right: 180px;
+    margin-right: clamp(5px, 20%, 100px);
  }
 
  #expandHead {
-    
+    padding-left: clamp(100px, 10%, 300px);
+    padding-right: clamp(100px, 10%, 300px);
+ }
+
+ .headr {
+    margin-right: clamp(2px, 10%, 200px);
+ }
+
+ .headr a {
+    width: 150px;
+    display: block;
  }
