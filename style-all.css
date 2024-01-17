@@ -10,7 +10,6 @@
     margin-left: clamp(5px, 2%, 50px);
     margin-right: clamp(5px, 2%, 50px)
  }
-
  .head {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -41,4 +40,17 @@
  .foot {
     margin-top: 35px;
     margin-bottom: 35px;
+ }
+
+ .ham {
+    background-color: black;
+ }
+
+ .aboutdesc {
+    max-width: 700px;
+    margin-right: 180px;
+ }
+
+ #expandHead {
+    
  }

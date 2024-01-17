@@ -9,12 +9,31 @@
   </head>
   <body>
     <div class="container-fluid">
-    <ul class="nav bg-dark">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-                <img src="camera.svg" alt="camera" width="30" height="30">Album</a>
-        </li>
-    </ul>
+    <div class="collapse navbar-collapse bg-dark" id="expandHead">
+        <div class="container-fluid d-flex justify-content-center">
+        <div>
+            <div><h2 class="text-white">About</h2></div>
+            <div><p class="text-secondary aboutdesc">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p></div>
+        </div>
+        <div>
+            <div><h2 class="text-white">Contact</h2></div>
+            <div><a href="#" class="text-white">Follow on Twitter</a></div>
+            <div><a href="#" class="text-white">Like on Facebook</a></div>
+            <div><a href="#" class="text-white">Email me</a></div>
+        </div>
+        </div>
+    </div>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid d-flex justify-content-around">
+            <a class="navbar-brand text-light" href="#">
+                <img src="camera.svg" alt="camera" width="30" height="24" class="d-inline-block align-text-top">
+                Album
+            </a>
+            <button data-bs-toggle="collapse" class="ham" data-bs-target="#expandHead" aria-expanded="false" aria-controls="expandHead">
+                <img src="hamburger.svg" width="30" height="30" alt="">
+            </button>
+        </div>
+    </nav>
     <div class="d-flex flex-column align-items-center head">
     <h1 class="p-2">Album Example</h1>
     <p class="p-3 fs-5 mainp text-secondary text-center">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
